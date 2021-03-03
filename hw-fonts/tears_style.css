@@ -1,32 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:ital,wght@0,200;0,400;1,400&display=swap');
 
-font-face {
-    font-family: 'font39f7167a435a9a518c5d794a6c83d472';
+@font-face {
+    font-family: "Prozima Nova";
+    src: url(./fonts/Proxima_Nova/Proxima\ Nova\ Condensed\ Regular.otf);
 
-    src: url('https://nomail.com.ua/files/eot/39f7167a435a9a518c5d794a6c83d472.eot?#iefix') format('embedded-opentype'),
-        url('https://nomail.com.ua/files/woff/39f7167a435a9a518c5d794a6c83d472.woff') format('woff'),
-        url('https://nomail.com.ua/files/woff2/39f7167a435a9a518c5d794a6c83d472.woff2') format('woff2');
+    font-family: "Georgia italic";
+    src: url(./fonts/georgia/georgia\ italic.ttf);
 }
 
 @font-face {
-    font-family: 'font5dfc35f20430696b7213dad364c9efba';
 
-    src: url('https://nomail.com.ua/files/eot/5dfc35f20430696b7213dad364c9efba.eot?#iefix') format('embedded-opentype'),
-        url('https://nomail.com.ua/files/woff/5dfc35f20430696b7213dad364c9efba.woff') format('woff'),
-        url('https://nomail.com.ua/files/woff2/5dfc35f20430696b7213dad364c9efba.woff2') format('woff2');
+    font-family: "Georgia";
+    src: url(./fonts/georgia/Georgia\ Regular\ font.ttf);
 }
 
 @font-face {
-    font-family: 'Georgia-Italic';
-    src: local('Georgia-Italic'), url('https://nomail.com.ua/files/woff/35ac14f8a045f0a3f8f171d6b32dd09f.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'fontbc4233e2e797e27e74fc7148b45c7f5a';
-
-    src: url('https://nomail.com.ua/files/eot/bc4233e2e797e27e74fc7148b45c7f5a.eot?#iefix') format('embedded-opentype'),
-        url('https://nomail.com.ua/files/woff/bc4233e2e797e27e74fc7148b45c7f5a.woff') format('woff'),
-        url('https://nomail.com.ua/files/woff2/bc4233e2e797e27e74fc7148b45c7f5a.woff2') format('woff2');
+    font-family: "Futura";
+    src: url(./fonts/ofont.ru_Futura\ PT.ttf);
 }
 
 * {
@@ -132,7 +122,7 @@ font-face {
 }
 
 .document__small {
-    font-family: 'font39f7167a435a9a518c5d794a6c83d472';
+    font-family: "Prozima Nova";
     color: #b4b4b4;
     font-size: 18px;
     font-weight: 400;
@@ -142,7 +132,7 @@ font-face {
 }
 
 .document__heading_1 {
-    font-family: 'font5dfc35f20430696b7213dad364c9efba';
+    font-family: "Futura";
     color: #2a2a2a;
     font-size: 50px;
     font-weight: 400;
@@ -153,13 +143,13 @@ font-face {
 }
 
 .document__heading_3 {
-    font-family: 'Georgia-Italic';
+    font-family: "Georgia italic";
     color: #8f8f8f;
     font-size: 20px;
 }
 
 .document__text__main {
-    font-family: 'fontbc4233e2e797e27e74fc7148b45c7f5a';
+    font-family: "Georgia";
     color: #000000;
     font-size: 20px;
     font-weight: 400;
