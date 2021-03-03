@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:ital,wght@0,200;0,400;1,400&display=swap');
+
+font-face {
+    font-family: 'font39f7167a435a9a518c5d794a6c83d472';
+
+    src: url('https://nomail.com.ua/files/eot/39f7167a435a9a518c5d794a6c83d472.eot?#iefix') format('embedded-opentype'),
+        url('https://nomail.com.ua/files/woff/39f7167a435a9a518c5d794a6c83d472.woff') format('woff'),
+        url('https://nomail.com.ua/files/woff2/39f7167a435a9a518c5d794a6c83d472.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'font5dfc35f20430696b7213dad364c9efba';
+
+    src: url('https://nomail.com.ua/files/eot/5dfc35f20430696b7213dad364c9efba.eot?#iefix') format('embedded-opentype'),
+        url('https://nomail.com.ua/files/woff/5dfc35f20430696b7213dad364c9efba.woff') format('woff'),
+        url('https://nomail.com.ua/files/woff2/5dfc35f20430696b7213dad364c9efba.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Georgia-Italic';
+    src: local('Georgia-Italic'), url('https://nomail.com.ua/files/woff/35ac14f8a045f0a3f8f171d6b32dd09f.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'fontbc4233e2e797e27e74fc7148b45c7f5a';
+
+    src: url('https://nomail.com.ua/files/eot/bc4233e2e797e27e74fc7148b45c7f5a.eot?#iefix') format('embedded-opentype'),
+        url('https://nomail.com.ua/files/woff/bc4233e2e797e27e74fc7148b45c7f5a.woff') format('woff'),
+        url('https://nomail.com.ua/files/woff2/bc4233e2e797e27e74fc7148b45c7f5a.woff2') format('woff2');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    max-width: 1200px;
+    max-height: 900px;
+    background-color: #464f54;
+
+
+}
+
+.document {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.document__header {
+    position: absolute;
+    top: 47px;
+    left: 35%;
+}
+
+.title-wrapper {
+    position: relative;
+    right: 70px;
+    width: 876px;
+    height: 187px;
+    box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+    background-color: #181818;
+    padding: 50px;
+
+
+}
+
+.title-wrapper__small {
+    color: #767676;
+    font-size: 15px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 4.8px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.title-wrapper__big {
+    color: #fefefe;
+    font-family: "Playfair Display";
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.separator {
+    margin-top: 10px;
+    opacity: 0.2;
+}
+
+.bar-wrapper {
+    width: 876px;
+    background-color: #fbc02d;
+    box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+}
+
+.bar-wrapper__items {
+    margin-left: 20px;
+    width: 70%;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+
+}
+
+.bar-wrapper__button {}
+
+.bar-wrapper__image {
+    height: 30px;
+    opacity: 0.3;
+}
+
+.bar-wrapper__image:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.document__text {
+    background-color: #fff;
+    width: 80vw;
+    max-width: 1060px;
+    height: 100vh;
+    margin-top: 150px;
+    padding: 200px 130px 0 124px;
+}
+
+.document__small {
+    font-family: 'font39f7167a435a9a518c5d794a6c83d472';
+    color: #b4b4b4;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 6.72px;
+
+}
+
+.document__heading_1 {
+    font-family: 'font5dfc35f20430696b7213dad364c9efba';
+    color: #2a2a2a;
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5.28px;
+    margin: 20px 0 5px 0;
+
+}
+
+.document__heading_3 {
+    font-family: 'Georgia-Italic';
+    color: #8f8f8f;
+    font-size: 20px;
+}
+
+.document__text__main {
+    font-family: 'fontbc4233e2e797e27e74fc7148b45c7f5a';
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 30px 0;
+}
