@@ -1,26 +1,39 @@
+/* Connected with google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:ital,wght@0,200;0,400;1,400&display=swap');
 
+/* connected by fontface - downloaded and converted for different browsers */
 @font-face {
-    font-family: "Proxima Nova";
-    src: url(./fonts/Proxima_Nova/Proxima\ Nova\ Condensed\ Regular.otf) format("otf");
-
+    font-family: 'Georgia';
+    src: url('./fonts/georgia_ital.eot');
+    src: local('☺'), url('fonts/georgia_ital.woff') format('woff'), url('fonts/georgia_ital.ttf') format('truetype'), url('fonts/georgia_ital.svg') format('svg');
+    font-weight: normal;
+    font-style: italic;
 }
 
 @font-face {
-    font-family: "Georgia italic";
-    src: url(./fonts/georgia/georgia\ italic.ttf) format("ttf");
+    font-family: 'Georgia';
+    src: url('fonts/georgia.eot');
+    src: local('☺'), url('fonts/georgia.woff') format('woff'), url('fonts/georgia.ttf') format('truetype'), url('fonts/georgia.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-
-    font-family: "Georgia";
-    src: url(./fonts/georgia/Georgia\ Regular\ font.ttf) format("ttf");
+    font-family: 'Proxima Nova';
+    src: url('./fonts/Mark Simonson - Proxima Nova Condensed Regular.eot');
+    src: local('☺'), url('fonts/Mark Simonson - Proxima Nova Condensed Regular.woff') format('woff'), url('fonts/Mark Simonson - Proxima Nova Condensed Regular.ttf') format('truetype'), url('fonts/Mark Simonson - Proxima Nova Condensed Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: "Futura";
-    src: url(./fonts/ofont.ru_Futura\ PT.ttf) format("ttf");
+    font-family: 'Futura';
+    src: url('./fonts/Futura.eot');
+    src: local('☺'), url('fonts/Futura.woff') format('woff'), url('fonts/Futura.ttf') format('truetype'), url('fonts/Futura.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
 }
+
 
 * {
     box-sizing: border-box;
@@ -64,12 +77,12 @@
 }
 
 .title-wrapper__small {
+    font-family: 'Proxima Nova';
     color: #767676;
     font-size: 15px;
     font-weight: 100;
     text-transform: uppercase;
     letter-spacing: 4.8px;
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .title-wrapper__big {
@@ -103,7 +116,6 @@
 
 }
 
-.bar-wrapper__button {}
 
 .bar-wrapper__image {
     height: 30px;
@@ -125,20 +137,19 @@
 }
 
 .document__small {
-    font-family: "Proxima Nova";
+    font-family: 'Proxima Nova';
     color: #b4b4b4;
     font-size: 18px;
-    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 6.72px;
 
 }
 
 .document__heading_1 {
-    font-family: "Futura";
+    font-family: 'Futura';
+    font-weight: bold;
     color: #2a2a2a;
     font-size: 50px;
-    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 5.28px;
     margin: 20px 0 5px 0;
@@ -146,16 +157,16 @@
 }
 
 .document__heading_3 {
-    font-family: "Georgia italic";
+    font-family: 'Georgia';
+    font-style: italic;
     color: #8f8f8f;
     font-size: 20px;
 }
 
 .document__text__main {
-    font-family: "Georgia";
+    font-family: 'Georgia';
     color: #000000;
     font-size: 20px;
-    font-weight: 400;
     line-height: 30px;
     margin: 30px 0;
 }
