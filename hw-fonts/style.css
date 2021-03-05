@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&family=Playfair+Display&display=swap');
 
-/* 
-
-font-family: 'Playfair Display', serif; */
-
-
 
 .page {
     display: flex;
@@ -14,7 +9,6 @@ font-family: 'Playfair Display', serif; */
 }
 
 .title-wrapper {
-
     width: 80%;
     height: fit-content;
     max-width: 1400px;
@@ -54,7 +48,6 @@ font-family: 'Playfair Display', serif; */
 
 
 .title__main {
-
     opacity: 0.7;
     color: #171717;
     font-family: Lato;
@@ -75,8 +68,6 @@ font-family: 'Playfair Display', serif; */
     text-transform: uppercase;
     line-height: 90px;
     margin-right: 15px;
-
-
 }
 
 .title__button {
@@ -90,5 +81,4 @@ font-family: 'Playfair Display', serif; */
     letter-spacing: 3.6px;
     padding: 25px 70px;
     text-decoration: none;
-
 }
