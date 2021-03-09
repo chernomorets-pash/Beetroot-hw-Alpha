@@ -34,12 +34,6 @@
     align-items: center;
 }
 
-.logo {
-    display: flex;
-}
-
-
-
 .logo__title {
     color: #262626;
     font-family: Pacifico;
@@ -158,7 +152,7 @@
     max-height: 864px;
 }
 
-.blog__heading--2 {
+.blog__heading {
     color: #ffffff;
     font-size: 90px;
     font-weight: 700;
@@ -218,7 +212,7 @@
     margin: 30px;
 }
 
-.blog__cards__item__heading--3 {
+.blog__cards__item__heading {
     color: #fff;
     font-size: 20px;
     font-weight: 700;
@@ -318,9 +312,7 @@
     justify-content: flex-end;
 }
 
-
-
-.avatar--1 {
+.avatar-one {
     background-image: url(../images/avatar_1.png);
 }
 
@@ -363,15 +355,15 @@
     opacity: 1;
 }
 
-.avatar--2 {
+.avatar-two {
     background-image: url(../images/man_avatar.png);
 }
 
-.avatar--3 {
+.avatar-three {
     background-image: url(../images/woman_red.png);
 }
 
-.avatar--4 {
+.avatar-four {
     background-image: url(../images/woman_white.png);
 }
 
