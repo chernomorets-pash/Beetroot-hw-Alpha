@@ -41,7 +41,6 @@
     border-bottom: 2px solid #e66a64;
 }
 
-
 .sing-form {
     display: flex;
     flex-direction: column;
@@ -59,8 +58,7 @@
     background-color: transparent;
 }
 
-/* 
-Styles for checkbox */
+/* Styles for checkbox */
 
 .keep_sign {
     font-size: 13px;

@@ -91,11 +91,10 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     font-size: 15px;
-
-
 }
 
 .submit__button {
+    visibility: hidden;
     position: relative;
     bottom: 85px;
     font-family: 'Raleway', sans-serif;
@@ -117,7 +116,6 @@
     font-size: 20px;
     font-weight: 300;
     font-weight: bold;
-
 }
 
 .info__contact--2 {
