@@ -436,22 +436,3 @@
 
 }
 
-/* Footer */
-
-.footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 90px;
-    width: 100vw;
-    background-color: #262626;
-
-}
-
-.footer__reserve {}
-
-.footer__logo {}
-
-.footer__madeby {}
-
-.madeby__item {}

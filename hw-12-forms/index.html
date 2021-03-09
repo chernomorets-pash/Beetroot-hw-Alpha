@@ -169,11 +169,12 @@
         <div class="form-contact__wrapper">
             <!-- contact form, if user type message = submit buttun have to appear -->
             <form action="#" class="form-contact__form" method="GET">
-                <input class="form__input" name="mame" type="text" placeholder="Your name...">
-                <input class="form__input" name="email" type="email" placeholder="Your email...">
-                <input class="form__input" name="phone" type="number" placeholder="Your phone number...">
-                <textarea class="form__input--message" name="message" cols="30" rows="10"
-                    placeholder="Your message ..."></textarea>
+                <input class="form__input" name="mame" type="text" placeholder="Your name..." required>
+                <input class="form__input" name="email" type="email" placeholder="Your email..." required>
+                <input class="form__input" name="phone" type="tel" placeholder="Your phone number..."
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" minlength="7" maxlength="14">
+                <textarea class="form__input--message" name="message" cols="30" rows="10" placeholder="Your message ..."
+                    .form__input--message:focus .submit__button { visibility: visible; }></textarea>
                 <input class="submit__button" type="submit" value="Send!">
             </form>
             <div class="info">

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/sign-form-style.css">
+    <link rel="icon" href="./images/favicon_checkbox.ico" sizes="16x16" type="image/vnd.microsoft.icon">
+    <title>Sign in Form</title>
+</head>
+
+<body class="page">
+    <div class="card">
+        <div class="sign-in">
+            <a class="sign-in__link active" href="#">Sign In</a>
+            <a class="sign-in__link" href="#">Join Us</a>
+        </div>
+        <form action=" #" class="sing-form">
+            <label for="name">Username</label>
+            <input class="sign-form__input" type="text" name="user_name" id="name" minlength="3" maxlength="15"
+                required>
+            <label for="password">Password</label>
+            <input class="sign-form__input" type="password" id="password" name="password" required>
+            <label class="keep_sign">
+                <input class="keep_sign__input" type="checkbox" name="keep_sign" checked>
+                <span class="keep-sign__box"></span>
+                Keep me signed in
+            </label>
+            <input class="sign-form__input sign-form__submit" type="submit" value="Sign In">
+        </form>
+        <div class="password-create">
+            <a class="password-create__link" href="#">Forgot password</a>
+            <a class="password-create__link" href="#">Create password</a>
+        </div>
+        <div class="background-shadow"></div>
+    </div>
+</body>
+
+</html>
