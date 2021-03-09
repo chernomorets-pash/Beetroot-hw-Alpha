@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/svg_font/');
+    src: url('../fonts/svg_font/icomoon.eot?tte1vh');
+    src: url('../fonts/svg_font/icomoon.eot?tte1vh#iefix') format('embedded-opentype'),
+        url('../fonts/svg_font/icomoon.ttf?tte1vh') format('truetype'),
+        url('../fonts/svg_font/icomoon.woff?tte1vh') format('woff'),
+        url('../fonts/svg_font/icomoon.svg?tte1vh#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bin:before {
+    content: "\e900";
+}
+
+.icon-delivery:before {
+    content: "\e901";
+}
+
+.icon-organized:before {
+    content: "\e902";
+}
+
+.icon-quality:before {
+    content: "\e903";
+}
+
+.services {
+    display: flex;
+    background-color: #70bfff;
+    width: 100vw;
+    height: 720px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.services__button {
+    width: 400px;
+    height: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    background-color: #ffffff;
+}
+
+.services__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 100px;
+    font-family: 'Raleway', sans-serif;
+    color: #262626;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.services__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-left: 0.1px solid gray;
+    font-size: 40px;
+}
+
+.services__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 462px;
+    height: 527px;
+    background-image: url(../images/tomato.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.services__heading2 {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+}
