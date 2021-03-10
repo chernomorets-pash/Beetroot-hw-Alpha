@@ -32,7 +32,6 @@
 .form-contact__wrapper {
     width: 800px;
     display: flex;
-
 }
 
 .form-contact__form {
@@ -57,7 +56,6 @@
 .form__input:focus {
     opacity: 1;
     border-left: 5px solid #355b82;
-
 }
 
 .form__input--message {

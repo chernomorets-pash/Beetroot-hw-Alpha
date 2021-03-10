@@ -34,12 +34,6 @@
     align-items: center;
 }
 
-.logo {
-    display: flex;
-}
-
-
-
 .logo__title {
     color: #262626;
     font-family: Pacifico;
@@ -158,7 +152,7 @@
     max-height: 864px;
 }
 
-.blog__heading--2 {
+.blog__heading {
     color: #ffffff;
     font-size: 90px;
     font-weight: 700;
@@ -179,7 +173,6 @@
 }
 
 .blog__cards__item {
-
     width: 370px;
     height: 310px;
     margin: 15px;
@@ -218,7 +211,7 @@
     margin: 30px;
 }
 
-.blog__cards__item__heading--3 {
+.blog__cards__item__heading {
     color: #fff;
     font-size: 20px;
     font-weight: 700;
@@ -320,7 +313,7 @@
 
 
 
-.avatar--1 {
+.avatar-one {
     background-image: url(../images/avatar_1.png);
 }
 
@@ -339,39 +332,39 @@
     transition: visibility 0s, opacity 0.5s linear;
 }
 
-.who-we-are__avatar:hover .back--1 {
+.who-we-are__avatar:hover .back-one {
     visibility: visible;
     background-color: #00ccff;
     opacity: 1;
 }
 
-.who-we-are__avatar:hover .back--2 {
+.who-we-are__avatar:hover .back-two {
     visibility: visible;
     background-color: #00ccff;
     opacity: 1;
 }
 
-.who-we-are__avatar:hover .back--3 {
+.who-we-are__avatar:hover .back-three {
     visibility: visible;
     background-color: #00ccff;
     opacity: 1;
 }
 
-.who-we-are__avatar:hover .back--4 {
+.who-we-are__avatar:hover .back-four {
     visibility: visible;
     background-color: #00ccff;
     opacity: 1;
 }
 
-.avatar--2 {
+.avatar-two {
     background-image: url(../images/man_avatar.png);
 }
 
-.avatar--3 {
+.avatar-three {
     background-image: url(../images/woman_red.png);
 }
 
-.avatar--4 {
+.avatar-four {
     background-image: url(../images/woman_white.png);
 }
 
