@@ -71,8 +71,6 @@
     text-align: center;
     max-width: 902px;
     max-height: 326px;
-    min-height: fit-content;
-    min-width: min-content;
     border: 2px solid black;
 }
 
