@@ -1,0 +1,110 @@
+ /* Media rules Desctop first */
+
+ @media (max-width: 992px) {
+     .header {
+         flex-direction: column;
+     }
+
+     .nav__list {
+         margin-top: 1em;
+         font-size: 1.5em;
+     }
+
+     .title__middle {
+         font-size: 4em;
+     }
+
+     .middle__text {
+         font-size: 0.9em;
+     }
+
+     .services__heading2 {
+         font-size: 4em;
+     }
+
+     .blog__heading {
+         font-size: 4em;
+     }
+
+     .who-we-are {
+         height: 80%;
+     }
+
+     .who-we-are__cards {
+         flex-wrap: wrap;
+     }
+ }
+
+ @media (max-width: 768px) {
+     .nav__list {
+         flex-direction: column;
+         text-align: end;
+     }
+
+     .title-wrap {
+         width: 100%;
+     }
+
+     .title__heading {
+         font-size: 3em;
+         text-align: center;
+     }
+
+     .title__link {
+         font-size: 2em;
+     }
+
+     .middle-section {
+         flex-direction: column;
+     }
+
+     .services {
+         flex-direction: column;
+     }
+
+     .title__middle {
+         text-align: center;
+     }
+
+     .services__logo {
+         width: 30%;
+         font-size: 10px;
+     }
+
+     .services__button {
+         margin-top: 10px;
+     }
+
+     .services__text {
+         font-size: 1.5em;
+     }
+
+     .gallery {
+         height: 65vh;
+     }
+
+     .gallery__wrapper-one {
+         flex-direction: column;
+         align-items: center;
+         height: 25%;
+     }
+
+     .gallery__wrapper-two {
+         display: none;
+     }
+
+     .gallery__button {
+         align-self: flex-start;
+     }
+
+     .blog__cards {
+         overflow: scroll;
+         flex-wrap: wrap;
+     }
+
+     .form-contact__wrapper {
+         flex-wrap: wrap;
+         overflow: scroll;
+         width: 40%;
+     }
+ }
