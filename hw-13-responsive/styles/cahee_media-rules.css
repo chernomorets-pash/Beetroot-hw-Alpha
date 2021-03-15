@@ -33,6 +33,7 @@
      .who-we-are__cards {
          flex-wrap: wrap;
      }
+
  }
 
  @media (max-width: 768px) {
