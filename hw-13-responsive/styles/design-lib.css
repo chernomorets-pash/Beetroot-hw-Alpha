@@ -71,15 +71,11 @@
     text-align: center;
     max-width: 902px;
     max-height: 326px;
-    border: 2px solid black;
 }
 
 .about-us__header {
+    padding: 0 20px;
     background-color: #fff;
-    position: relative;
-    display: inline-block;
-    bottom: 52px;
-    padding: 0 90px;
     color: #3c3c3c;
     font-size: 34px;
     font-weight: 700;
@@ -88,7 +84,7 @@
 }
 
 .about-us__title {
-    padding: 0 170px;
+    padding: 0 15%;
     color: #3c3c3c;
     font-size: 16px;
     font-weight: 300;
@@ -97,7 +93,7 @@
 }
 
 .title_narrow {
-    padding: 0 230px;
+    padding: 0 10%;
 }
 
 /* Services section */
@@ -105,7 +101,6 @@
 .services {
     width: 100vw;
     min-height: 320px;
-    min-width: 960px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,9 +118,6 @@
 }
 
 .services__header {
-    position: relative;
-    display: inline-block;
-    bottom: 52px;
     padding: 0 65px;
     color: #ffffff;
     font-size: 34px;
@@ -141,7 +133,7 @@
     font-weight: 300;
     line-height: 25.89px;
     text-align: center;
-    padding: 0 170px;
+    padding: 0 15%;
 }
 
 /* Section What We Do */
@@ -160,12 +152,11 @@
     align-items: center;
     border: 1px solid black;
     width: 60%;
+    max-width: 902px;
 }
 
 .what-we-do__header {
-    position: relative;
-    display: inline-block;
-    bottom: 52px;
+    text-align: center;
     padding: 0 65px;
     font-size: 34px;
     font-weight: 700;
@@ -276,13 +267,14 @@
     max-width: 902px;
     max-height: 326px;
     border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .contact__header {
     background-color: #fff;
-    position: relative;
-    display: inline-block;
-    bottom: 52px;
     padding: 0 90px;
     color: #3c3c3c;
     font-size: 34px;
@@ -292,7 +284,7 @@
 }
 
 .contact__title {
-    padding: 0 170px;
+    padding: 0 10%;
     color: #3c3c3c;
     font-size: 16px;
     font-weight: 300;
@@ -317,6 +309,7 @@
 /* FOOTER */
 
 .footer {
+    background-color: rgba(128, 128, 128, 0.166);
     margin-top: 30px;
     display: flex;
     justify-content: center;
@@ -324,13 +317,36 @@
 
 .footer__logo {
     background-image: url(../images/Ellipse_1_copy_12.svg);
+    background-repeat: no-repeat;
     width: 35px;
     height: 37px;
     color: black;
+    padding: 2px;
 }
 
 .footer__title {
     color: #3c3c3c;
     font-size: 14px;
     font-weight: 400;
+}
+/* Responsive */
+@media (max-width: 992px) {
+    .header {
+        background-position: right;
+    }
+
+    .services {
+        align-items: center;
+    }
+
+    .services__wrapper {
+        width: 100%%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .what-we-do__wrapper {
+        width: 100%;
+    }
 }
