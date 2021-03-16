@@ -50,6 +50,7 @@
 
 .nav__list .nav__link:hover {
     text-decoration: overline;
+    -webkit-text-decoration-color: #ff6033;
     text-decoration-color: #ff6033;
 }
 
