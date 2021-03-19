@@ -31,6 +31,7 @@
 
 .nav {
     width: 50%;
+    transition: linear 1s;
 }
 
 .nav__list {
@@ -377,4 +378,12 @@
     height: 42px;
     background-color: rgba(255, 255, 255, 0.342);
     margin: 2px;
+}
+/* MENU STYLES */
+.top-section__menu {
+    align-self: flex-end;
+    margin-right: 10%;
+    font-size: 30px;
+    display: none;
+    cursor: pointer;
 }

@@ -26,11 +26,8 @@
     width: 45%;
     margin: 25px 0;
 }
-
-.subscribe-to-us__form {}
-
 .subscribe-to-us__form__input {
-    width: 570px;
+    width: 80%;
     height: 55px;
     border: 1px solid #262626;
     padding-left: 10px;

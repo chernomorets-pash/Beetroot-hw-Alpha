@@ -1,10 +1,9 @@
  /* Media rules Desctop first */
 
- @media screen and (max-width: 992px) {
+ @media screen and (max-width: 946px) {
      .header {
          flex-direction: column;
      }
-
      .nav__list {
          margin-top: 1em;
          font-size: 1.5em;
@@ -36,22 +35,33 @@
 
  }
 
- @media screen and (max-width: 768px) {
+ @media screen and (max-width: 720px) {
      .nav__list {
          flex-direction: column;
          text-align: end;
      }
+     .nav {
+         visibility: hidden;
+     }
 
+     .top-section__menu {
+         display: flex;
+     }
+
+     #chbx:checked+.nav {
+         visibility: visible;
+         width: 85%;
+     }
      .who-we-are__cards {
          width: 40%;
      }
-
-
      .title__heading {
          font-size: 3em;
          text-align: center;
      }
-
+     .title-wrap {
+         width: 100%;
+     }
      .title__link {
          font-size: 2em;
      }
@@ -82,23 +92,8 @@
      }
 
      .gallery {
-         height: 65vh;
-     }
-
-     .gallery__wrapper-one {
-         flex-direction: column;
-         align-items: center;
-         height: 25%;
-     }
-
-     .gallery__wrapper-two {
          display: none;
      }
-
-     .gallery__button {
-         align-self: flex-start;
-     }
-
      .blog__cards {
          overflow: scroll;
          flex-wrap: wrap;
