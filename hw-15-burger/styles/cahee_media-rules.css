@@ -32,6 +32,8 @@
      .who-we-are__cards {
          flex-wrap: wrap;
      }
+     .who-we-are__cards {
+         width: 40%;
 
  }
 
@@ -91,7 +93,7 @@
          font-size: 1.5em;
      }
 
-     .gallery {
+    .gallery {
          display: none;
      }
      .blog__cards {
@@ -105,3 +107,4 @@
          width: 40%;
      }
  }
+;
