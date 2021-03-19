@@ -1,0 +1,18 @@
+@import url('../styles/cahee_fonts.css');
+@import url('../styles/cahee_styles.css');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('./form_footer.css');
+@import url('./cahee_service.css');
+@import url('./cahee_gallery.css');
+@import url('../styles/cahee_subscribe.css');
+@import url('../styles/cahee_media-rules.css');
+
+
+/* reseter */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
