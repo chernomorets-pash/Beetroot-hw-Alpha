@@ -137,8 +137,6 @@
     justify-content: center;
     background-color: #b07cf7;
     width: 100vw;
-    height: 720px;
-    max-height: 864px;
 }
 
 .blog__heading {
@@ -217,8 +215,8 @@
 }
 
 .blog__cards__button {
+    padding: 0 2%;
     text-decoration: none;
-    width: 200px;
     height: 55px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     background-color: #f72b3b;
@@ -228,7 +226,6 @@
     font-weight: 300;
     text-transform: uppercase;
     padding-top: 15px;
-    margin-top: 50px;
     /* EFFECTS */
     cursor: pointer;
     transition: all 0.3s ease;

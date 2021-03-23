@@ -37,7 +37,7 @@
 
  }
 
- @media screen and (max-width: 720px) {
+ @media screen and (max-width: 720px) { 
      .nav__list {
          flex-direction: column;
          text-align: end;
@@ -62,9 +62,13 @@
          text-align: center;
      }
      .title-wrap {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
          width: 100%;
      }
      .title__link {
+         text-align: center;
          font-size: 2em;
      }
 
@@ -104,7 +108,11 @@
      .form-contact__wrapper {
          flex-wrap: wrap;
          overflow: scroll;
-         width: 40%;
+         width: 100%;
+         }
+
+         .who-we-are__heading {
+             margin-top: 2rem;
      }
- }
+}
 ;
