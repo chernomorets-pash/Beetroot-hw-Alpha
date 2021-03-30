@@ -2,11 +2,15 @@
     display: flex;
     background-color: #70bfff;
     width: 100vw;
-    height: 720px;
+    max-height: 720px;
     justify-content: space-around;
     align-items: center;
 }
-
+.services__shortcut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .services__button {
     width: 400px;
     height: 100px;

@@ -8,6 +8,25 @@
          margin-top: 1em;
          font-size: 1.5em;
      }
+     .nav {
+         visibility: hidden;
+     }
+
+     .top-section__menu {
+         display: flex;
+         align-self: flex-start;
+         z-index: 1;
+     }
+
+     .menu-bar {
+         width: 100%;
+         position: absolute;
+         height: 70%;
+         background-color: aqua;
+         top: 0;
+         left: 0;
+         opacity: 0.9;
+     }
 
      .title__middle {
          font-size: 4em;
@@ -114,5 +133,22 @@
          .who-we-are__heading {
              margin-top: 2rem;
      }
-}
-;
+     /* Iphone 7 */
+     @media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+
+         /* About Us */
+         .image {
+             width: 100%;
+        }
+        .middle__text {
+            height: auto;
+            width: 80%;
+            margin-left: 20px;
+        }
+
+        /* Services */
+        .services__button {
+            width: 70%;
+            justify-content: center;
+        }
+        }
